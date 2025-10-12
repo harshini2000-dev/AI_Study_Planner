@@ -1,0 +1,36 @@
+.student_info {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #FFFFC5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+         /*body {
+            background-image: url("{{ url_for('static', filename='images/edu_background.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }*/
+        h2 {
+            color: #007BFF;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 8px 0;
+        }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }

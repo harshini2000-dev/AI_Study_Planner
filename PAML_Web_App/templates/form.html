@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAML Study Hours Predictor</title>
+    <style>
+        body {
+    background-image: url("{{ url_for('paml.static', filename='images/edu_studyplan.jpg') }}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        }
+    </style>
+<link rel="stylesheet" href="{{ url_for('paml.static', filename='css/style_3.css') }}">
+</head>
+<body>
+    <h2>Personalized Study Hours Predictor</h2>
+    <form method="POST" id="myForm">
+        <label>Student ID:</label><br>
+        <input type="text" name="student_id" id="student_id" placeholder="S001" required onchange="checkformat_studentId()"><br><br>
+
+        <label>Topic:</label><br>
+        <input type="text" name="topic" id="topic" maxlength="30" placeholder="Ex. Probability" onchange="checkformat_topic()" required><br><br>
+
+        <label>How do you feel about this topic?</label><br>
+        <textarea name="user_input" id="user_input" rows="5" cols="40" maxlength="70" placeholder = "Ex. I am struggling with this topic" required onchange="checkformat_usercomments()"></textarea><br><br>
+
+        <label>Confidence (0 = low, 5 = high):</label><br>
+        <input type="number" name="confidence_score" step="1" min="0" max="5" required><br><br>
+
+        <label>Topic Difficulty (1 = easy, 10 = very hard)</label><br>
+        <input type="number" name="topic_difficulty" min="1" max="10" value="5" required><br><br>
+
+        <label>Time Spent (minutes) per session:</label><br>
+        <input type="number" name="time_spent_minutes" min="20" max="260" placeholder="30"><br><br>
+
+        <label>Exam Date:</label><br>
+        <input type="date" name="exam_date" id="exam_date" required onchange="check_dateformat()"><br><br>
+
+        <label>Last Exam Result:</label><br>
+        <select name="last_exam_result" required>
+            <option value="" selected> -- select --</option>
+            <option value="passed">Passed</option>
+            <option value="failed">Failed</option>
+        </select><br><br><br><br><br><br>
+
+        <button type="submit" id="submit_btn" value="Predict Study Hours"> Predict Study Hours </button>
+        <button type="reset" id="reset_btn" value="reset" onclick="reset_form()"> Reset Form </button>
+    </form>
+
+    <!-- {% if prediction %}
+        <h3> Predicted Study Hours per Day: {{ prediction | round(2) }} hrs</h3>
+    {% endif %} -->
+</body>
+<script>
+
+function check_dateformat(){
+
+    exam_date_value = document.getElementById("exam_date").value;
+    const selectedDateString = new Date(exam_date_value);
+    console.log(selectedDateString);
+
+    const today = new Date();
+
+    if(selectedDateString < today - 1)
+    {
+        alert("You selected past/today's date");
+        document.getElementById("exam_date").value = "";
+    }
+
+    else if(selectedDateString == today){
+        alert("Today's date can't be selected");
+        document.getElementById("exam_date").value = "";
+    }
+}
+
+function checkformat_studentId(){
+  
+  let regex1 = /^S\d+$/i; 
+  studentId_value = document.getElementById("student_id").value;
+
+  if(studentId_value === "") {return; }
+  if (!regex1.test(studentId_value)){
+    alert("Incorrect format." +  "\n"
+    +
+    "Format: Start with S and continue with digits");
+    document.getElementById("student_id").value = "";
+  }
+}
+
+function checkformat_usercomments (){
+  userinput = document.getElementById("user_input").value;
+  if(userinput.trim() === "") {return;}
+  let newstr = userinput.replaceAll(","," ").replaceAll('"', "").replaceAll("'"," ").replaceAll(/\s+/g," ");
+  document.getElementById("user_input").value = newstr;
+}
+
+function checkformat_topic(){
+  topic_val = document.getElementById("topic").value;
+  if(topic_val.trim() === "") {return;}
+  let newstr = topic_val.replaceAll(","," ").replaceAll('"', "").replaceAll("'"," ").replaceAll(/\s+/g," ");
+  document.getElementById("topic").value = newstr;
+}
+
+function reset_form(){
+  const myForm = document.getElementById('myForm');
+
+    myForm.elements.student_id.value = "";
+    myForm.elements.topic.value = "";
+    myForm.elements.user_input.value = "";
+    myForm.elements.confidence_score.value = "";
+    myForm.elements.topic_difficulty.value="";
+    myForm.elements.time_spent_minutes.value="";
+    myForm.elements.exam_date.value="";
+    myForm.elements.last_exam_result.value="";
+
+}
+</script>
+</html>

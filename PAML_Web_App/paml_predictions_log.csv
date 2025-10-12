@@ -1,0 +1,264 @@
+student_id,user_input,confidence_score,sentiment_score,struggle_keywords,topic,topic_difficulty,time_spent_minutes,is_struggling,days_left,predicted_study_hours,last_exam_result
+S002,Im confused about ca,0.2,-0.6,1,calculus,7,10,1,15,2.1643362045288086,failed
+S002,Im confused about ca,0.2,-0.6,1,calculus,7,10,1,15,2.12,failed
+S002,Im really lost on int,0.1,-0.7,1,calculus,8,5,1,15,2.24,failed
+S005,Im feeling good about stat,0.8,0.5,0,statistics,5,40,0,15,0.82,passed
+S002,Some concepts in linear algebra are tricky,0.5,-0.2,1,linear algebra,6,15,1,15,1.67,passed
+S002,I am struggling with Calculus,0.4,-0.4215,['struggling'],calculus,8,45,1,15,2.09,passed
+S010,I am having tough time with algebra,0.4,-0.128,[],algebra,9,10,0,15,1.62,failed
+S100,I'm completely confused and stuck with algebra equations,0.2,-0.5936,1,algebra,9,10,1,15,0.5,failed
+S001,Im completely confused and stuck with algebra equations,0.2,-0.5936,1,algebra,9,10,1,15,1.8,failed
+S001,I am having tough time with probability,0.4,-0.128,0,probability,9,20,0,15,2.04,failed
+S022,I am struggling with probability,0.2,-0.4215,1,probability,9,160,1,15,1.99,failed
+S022,I am confused and am not confident,0.2,-0.6031,1,algebra,9,120,1,15,1.8,failed
+S022,I am confused with algebra,0.2,-0.3182,1,algebra,9,120,1,15,2.37,failed
+S100,I am bad in this topic,0.2,-0.5423,1,algebra,9,60,1,15,2.1,failed
+S100,I am feeling bad about the topic,1,-0.4588,1,algebra,9,70,1,15,0.5,failed
+S100,I am bad in this topic,0.2,-0.5423,1,algebra,9,65,1,15,1.37,failed
+S100,I am struggling,0,-0.4215,1,algebra,10,80,1,15,1.51,failed
+S100,i am bad in this,0,-0.5423,1,algebra,10,100,1,15,0.75,failed
+S100,I am confused and bad in this,0,-0.7003,2,algebra,10,100,1,15,1.48,failed
+S022,I am confused struggling depression,0.2,-0.8316,3,algebra,9,120,1,15,0.75,failed
+S050,I find algebra very tough and confusing,0.4,-0.4509,0,algebra,8,35,1,15,2.48,failed
+S002,I am confused with topic,0.2,-0.3182,1,algebra,8,110,1,15,1.51,failed
+S022,I am confused,0.2,-0.3182,1,algebra,8,110,1,15,1.62,failed
+S022,i am confused and struggling,0.2,-0.6249,2,algebra,8,110,1,15,2.38,failed
+S100,I am confused and struggling,0,-0.6249,2,algebra,9,110,1,15,1.74,failed
+S100,I am bad and strugglin in this topic,0,-0.5423,1,algebra,9,120,1,15,1.67,failed
+S100,I am bad at this,0.2,-0.5423,1,algebra,9,120,1,15,1.81,failed
+S006,i am bad in this topic,0,-0.5423,1,algebra,10,20,1,15,1.29,failed
+S006,I am bad in this and i am struggling,0.2,-0.743,2,algebra,9,30,1,15,0.62,failed
+S006,Very confused with algebra  and anxious,0.2,-0.5563,1,algebra,10,15,1,15,2.84,failed
+S009,i am worst in algebra,0,-0.6249,1,algebra,10,20,1,15,2.39,failed
+S011,i am good in this,0.8,0.4404,0,stats,3,60,0,15,2.21,passed
+S011,I am good in this topic,1,0.4404,0,algebra,2,60,0,15,2.16,passed
+S011,I am confident and happy with studies,1,0.7845,0,algebra,1,60,0,15,1.41,passed
+S011,I am good and happy with topic,1,0.765,0,algebra,1,60,0,15,1.93,passed
+S006,i am confused  bad and struggling with this,0,-0.8225,3,algebra,10,20,1,15,2.29,failed
+S006,I am bad in this topic i am struggling,0.2,-0.743,2,algebra,9,20,1,15,1.82,failed
+S006,I am bad in this,0.2,-0.5423,1,algebra,9,20,1,15,0.5,failed
+S006,I am bad in this,0.2,-0.5423,1,algebra,9,15,1,15,2.86,failed
+S011,I am struggling in probability,0.2,-0.4215,1,probability,8,30,1,15,2.29,failed
+S011,I am bad in this topic,0.6,-0.5423,1,stats,7,60,1,15,2.92,passed
+S01,I am poor in this struggling,0.2,-0.7096,2,prob,8,20,1,15,0.5,failed
+S01,I am struggling,0.2,-0.4215,1,stats,8,20,1,15,1.93,failed
+S01,I am bad at this,0.2,-0.5423,1,algebra,8,20,1,15,3,failed
+S01,i am bad,0.2,-0.5423,1,stats,9,30,1,15,2.13,failed
+S1,I am bad in this,0.2,-0.5423,1,algebra,9,30,1,15,2.15,failed
+S1,I am bad,0.4,-0.5423,1,algebra,9,20,1,15,2.32,failed
+S2,I am good,0.8,0.4404,0,algebra,2,60,0,15,1.69,passed
+S3,I am bad,0.2,-0.5423,1,prob,9,25,1,15,2.43,failed
+S3,I am bad,0.2,-0.5423,1,algebra,10,20,1,15,2.46,failed
+S3,bad,0.2,-0.5423,1,prob,9,20,1,15,2.23,failed
+S3,bad,0.2,-0.5423,1,prob,10,20,1,15,2.36,failed
+S3,bad,0.2,-0.5423,1,prob,10,30,1,15,2.79,failed
+S3,i am struggling and bad,0.2,-0.743,2,algebra,9,30,1,15,2.48,failed
+S001,I am bad and struggling,0.2,-0.743,2,algebra,9,20,1,15,2.68,failed
+S001,bad,0.4,-0.5423,1,algebra,9,30,1,15,2.35,failed
+S001,i am better but less confident,0.4,0.7013,0,algebra,7,45,0,15,2.13,failed
+S001,good,0.6,0.4404,0,alg,5,80,0,15,1.7,passed
+S001,I am okay,0.8,0.2263,0,algebra,3,90,0,15,2.18,failed
+S001,i m good,0.8,0.4404,0,algebra,2,90,0,15,2.22,passed
+S001,i am good,1,0.4404,0,algebra,1,120,0,15,1.93,passed
+S002,i am bad and struggling and anxious,0,-0.8074,2,prob,10,15,1,15,2.29,failed
+S002,i am bad,0.2,-0.5423,1,alg,10,20,1,15,2.7,failed
+S002,i am bad,0.2,-0.5423,1,alg,10,20,1,15,2.43,failed
+S002,i am bad worst in this topic,0,-0.8225,2,prob,10,30,1,15,2.54,failed
+S2,I am good,0.8,0.4404,0,algebra,3,60,0,15,2.12,passed
+S2,I am good,1,0.4404,0,algebra,1,90,0,15,1.71,passed
+S1,I am bad in this  no confidence,0.2,-0.34,1,algebra,10,30,1,15,2.27,failed
+S1,I am bad,0,-0.5423,1,algebra,10,30,1,15,2.8,failed
+S1,I am struggling in probability,0.2,-0.4215,1,probability,9,40,1,15,2.63,failed
+S1,I am bad in probability and weak,0.2,-0.7506,2,probability,10,20,1,15,2.49,failed
+S1,I am weak in this topic,0.2,-0.4404,1,alegbra,10,20,1,15,3.45,failed
+S1,I am struggling and hard,0.2,-0.4939,1,algebra,9,20,1,15,3.67,failed
+S1,I am struggling,0.4,-0.4215,1,algebra,9,30,1,15,3.68,failed
+S11,I am struggling i scored worst,0,-0.7845,2,algebra,10,30,1,15,4.13,failed
+S11,i am struggling and it is tough,0,-0.5106,1,algebra,10,20,1,15,4.32,failed
+S11,I am feeling better but still worried,0.4,-0.1531,0,algebra,8,60,0,15,4.43,failed
+S11,I am okay,0.6,0.2263,0,algebra,6,90,0,15,4.2,failed
+S11,I am okay and better,0.8,0.5859,0,alebgra,4,90,0,15,4.3,failed
+S11,I am very confident and doing well,0.8,0.6801,0,algebra,3,120,0,15,4.17,failed
+S11,I am very confident now,1,0.5413,0,algebra,1,120,0,15,2.87,passed
+S11,I am happy and confident and stress free,1,0.8126,1,algebra,1,140,1,15,2.96,passed
+S11,I am happy and confident,1,0.7845,0,algebra,1,120,0,15,3.18,passed
+S11,I am okay and happy with the topic,1,0.6808,0,algebra,1,120,0,15,3.04,passed
+S01,I am struggling with the topic,0.2,-0.4215,1,algebra,10,100,1,15,3.82,failed
+S01,I am struggling with this topic.,0.2,-0.4215,1,algebra,10,35,1,15,3.48,failed
+S01,I am having worst time with algebra,0.2,-0.6249,1,algebra,10,35,1,15,3.93,failed
+S01,I am struggling and facing challenges,0.2,-0.3612,1,algebra,10,40,1,15,3.12,failed
+S01,I am feeling tired and stressed,0.2,-0.5859,2,algebra,10,45,1,15,4.29,failed
+S01,I am giving worst performance lately,0.2,-0.4019,1,algebra,9,50,1,15,4.02,failed
+S01,I am feeling anxious and stressed,0,-0.4404,1,algebra,10,30,1,15,3.97,failed
+S01,i am struggling and stressed and giving worst performace,0.2,-0.7845,3,algebra,10,30,1,15,3.64,failed
+S01,I am having stress and bad performance lately and very tough,0.2,-0.796,2,algebra,9,30,1,15,3.73,failed
+S01,I am having bad time and struggling and less confident,0.2,-0.5256,2,algebra,9,45,1,15,3.78,failed
+S01,i am bad in this and struggling and worst,0.2,-0.886,3,algebra,10,10,1,15,4.22,failed
+S01,I am struggling   worst and stress,0.2,-0.8658,3,algebra,10,12,1,15,4.14,failed
+S02,i am having bad time,0.4,-0.5423,1,prob,9,20,1,15,4.03,unknown
+S02,I am bad in this,0.4,-0.5423,1,algebra,9,30,1,15,3.45,failed
+S02,I am bad and performing worst,0.2,-0.8225,2,algebra,10,20,1,15,3.8,failed
+S02,I am having bad time and burnout,0.2,-0.5423,1,algebra,9,30,1,15,4.2,failed
+S02,i am performing bad but confident now,0.4,0.4678,1,algebra,8,30,1,15,4.18,failed
+S03,I am very confident and happy and positive,0.8,0.9013,0,statistics,2,60,0,15,3.91,passed
+S03,I am happy with this topic,1,0.5719,0,algebra,1,100,0,15,3.41,passed
+S03,I am okay with it,0.8,0.2263,0,algebra,2,60,0,15,3.91,passed
+S03,I am unwell and anxious,0.2,-0.25,0,probability,10,20,1,15,3.84,failed
+S03,I am not okay and giving bad performance lately,0.2,-0.7353,1,algebra,10,10,1,15,3.91,failed
+S03,I am struggling with topic,0.2,-0.4215,1,algebra,10,40,1,15,4.11,failed
+S03,I am struggling and stressed,0.2,-0.6369,2,probability,8,45,1,15,3.6,failed
+S03,I am tired and exhausted with this topic,0,-0.6597,2,algebra,10,20,1,15,3.96,failed
+S03,I am bad in this,0.2,-0.5423,1,algebra,9,20,1,15,3.94,failed
+S0001,I am struggling with the topic,0.2,-0.4215,1,algebra,9,50,1,15,3.94,failed
+S0001,I am bad in this topic and failed to understand,0.2,-0.7783,2,probability,10,90,1,15,3.93,failed
+S0001,I am not confident,0.2,-0.3875,0,algebra,9,80,1,4,1.42,failed
+S0001,I am strugglin,0.0,0.0,0,algebra,10,80,1,9,3.27,failed
+S0001,I am bad,0.0,-0.5423,1,algebra,10,80,1,10,3.52,failed
+S0001,I am bad in this and struggling to get,0.2,-0.743,2,algebra,9,70,1,10,2.95,failed
+S0001,i am bad in this,0.0,-0.5423,1,algebra,10,90,1,12,3.21,failed
+S0001,i am bad,0.0,-0.5423,1,algebra,10,50,1,4,3.38,failed
+S0001,i am struggling and bad,0.2,-0.743,2,algebra,10,75,1,4,3.75,failed
+S0001,I am tired and exhausted with this topic,0.0,-0.6597,2,algebra,10,90,1,4,3.22,failed
+S0001,i am bad in this and worst performance,0.0,-0.8225,2,algebra,10,80,1,4,0.5,failed
+S0001,I am bad at this. worst,0.0,-0.8225,2,algebra,10,80,1,4,3.3,failed
+S0001,I am bad in this but learnt well,0.4,0.1027,1,algebra,8,90,1,5,3.73,failed
+S0001,I am okay but worst performance,0.2,-0.7351,1,algebra,10,80,1,4,3.58,failed
+S0001,I performed very poor and exhausted,0.0,-0.7316,2,algebra,10,50,1,2,3.66,failed
+S0001,i am bad but i improved,0.4,0.4404,1,algebra,9,120,1,4,3.43,failed
+S0001,I am okay now better than before,0.6,0.5859,0,algebra,7,160,0,4,3.32,passed
+S0001,I am feeling good and happy,0.8,0.7964,0,algebra,4,180,0,4,0.5,passed
+S0001,I am good,0.8,0.4404,0,algebra,4,160,0,4,0.69,passed
+S0002,I am excited to learn,1.0,0.34,0,stats,1,90,0,4,0.5,passed
+S0002,I am confident,1.0,0.4939,0,stats,2,85,0,4,0.5,passed
+S0002,I am good,0.8,0.4404,0,stats,2,80,0,4,0.71,passed
+S0002,I am okay and good,1.0,0.5859,0,stats,1,90,0,4,3.64,passed
+S0002,I am confident and happy,1.0,0.7845,0,algebra,1,90,0,5,2.87,passed
+S0002,I am fine,1.0,0.2023,0,prob,1,120,0,2,3.37,passed
+S0002,I am confident,0.8,0.4939,0,algebra,2,90,0,10,3.77,passed
+S0002,I am excited,1.0,0.34,0,algebra,1,120,0,2,3.09,passed
+S0003,I am bad in this subject,0.0,-0.5423,1,probs,10,20,1,4,3.29,failed
+S0003,I am worst,0.0,-0.6249,1,probs,10,30,1,4,3.37,failed
+S003,I am worst and tired,0.0,-0.7906,2,probs,10,40,1,6,3.64,failed
+S0003,I am bad,0.2,-0.5423,1,probs,9,70,1,4,3.28,failed
+S0003,I am bad but improving,0.4,0.3506,1,probs,7,90,1,4,3.49,failed
+S0003,I am better but struggling still,0.4,-0.4118,1,probs,8,120,1,4,3.42,failed
+S0003,i am okay and better,0.8,0.5859,0,probs,4,160,0,4,3.21,passed
+S0004,I am confident and excited to learn,1.0,0.6808,0,probs,1,120,0,4,3.15,passed
+S0004,I am a topper of the class and got many awards,1.0,0.4588,0,probs,1,140,0,4,3.53,passed
+S0004,I am positive,1.0,0.5574,0,algebra,1,140,0,4,3.44,passed
+S0004,I am happy and positive,1.0,0.8074,0,algebra,1,120,0,3,3.58,passed
+S0004,I am ill,0.4,-0.4215,1,prob,7,40,1,4,3.61,failed
+S0003,I am weak in this subject,0.2,-0.4404,1,probs,9,60,1,6,3.84,failed
+S0004,I am weak,0.4,-0.4404,1,prob,6,50,1,6,3.56,failed
+S0004,im bad,0.4,-0.5423,1,algebra,9,90,1,4,4.13,failed
+S0006,I am okay now,0.6,0.2263,0,algebra,5,170,0,4,3.52,passed
+S0004,I am okay now,0.6,0.2263,0,algebra,5,120,0,4,3.07,passed
+S0006,I am confident,0.8,0.4939,0,algebra,2,100,0,4,3.56,passed
+S0006,I am okay,0.6,0.2263,0,algebra,4,90,0,4,3.2,passed
+S0006,I am excited,1.0,0.34,0,probs,2,90,0,6,3.4,passed
+S0006,I am having good time,1.0,0.4404,0,probability,1,80,0,5,3.16,passed
+S0006,I am fine and excited,1.0,0.4939,0,algebra,1,140,0,5,3.57,passed
+S0007,i am stress,0.0,-0.4215,1,probability,10,40,1,2,4.04,failed
+S0007,I am tired and scared,0.0,-0.7003,2,prob,10,50,1,2,3.98,failed
+S0007,I am scared and exhausted,0.0,-0.6597,2,probability,10,60,1,7,4.04,failed
+S111,I am scared and exhausted,0.2,-0.6597,2,algebra,9,30,1,10,3.46,failed
+S111,I am having tough time,0.2,-0.128,0,algebra,9,60,1,5,4.27,failed
+S111,I am having bad time,0.2,-0.5423,1,algebra,8,70,1,1,3.74,failed
+S112,I am feeling better,0.6,0.5267,0,probability,3,60,0,3,3.73,passed
+S112,I am good,1.0,0.4404,0,algebra,1,90,0,3,3.52,passed
+S112,i am good,1.0,0.4404,0,algebra,1,80,0,0,3.58,passed
+S112,i am good at this,1.0,0.4404,0,algebra,1,80,0,9,3.44,passed
+S111,i am better,1.0,0.4404,0,probs,1,90,0,21,3.86,passed
+S112,good,1.0,0.4404,0,probs,1,160,0,0,3.58,passed
+S113,I am bad at this worst,0.0,-0.8225,2,stats,10,20,1,1,4.07,failed
+S113,I am bad and tired,0.2,-0.7506,2,probs,9,50,1,24,4.14,failed
+S113,I am bad but improving,0.6,0.3506,1,algebra,7,80,1,8,3.66,passed
+X112,I am good with this topic,1.0,0.4404,0,Probability,2,80,0,9,3.42,passed
+S113,I am bad at this topic,0.0,-0.5423,1,Statistics,10,80,1,3,3.6,failed
+S114,Bad,0.0,-0.5423,1,Statistics,10,60,1,0,3.62,failed
+S114,Bad and worst condition,0.0,-0.8225,2,Probs,10,60,1,2,3.6,failed
+S114,worst,0.0,-0.6249,1,Statistics,10,45,1,0,3.67,failed
+S114,i am bad at this and struggling,0.0,-0.743,2,statistics,10,80,1,1,3.67,failed
+S01,i am struggling,0.0,-0.4215,1,probability,10,30,1,2,3.59,failed
+S01,i am bad,0.0,-0.5423,1,probability,10,40,1,1,3.61,failed
+S01,bad,0.0,-0.5423,1,statistics,10,50,1,0,3.67,failed
+S01,i am bad,0.2,-0.5423,1,statistics,10,90,1,4,3.64,failed
+S01,i am struggline,0.0,0.0,0,statistics,10,30,1,3,3.55,failed
+S01,i am sad,0.0,-0.4767,1,statistics,10,50,1,0,3.55,failed
+S01,i am struggling,0.0,-0.4215,1,statistics,10,45,1,1,3.56,failed
+S01,i am struggling,0.0,-0.4215,1,algebra,10,40,1,2,3.6,failed
+S01,bad bad bad,0.0,-0.8885,3,algebra,10,40,1,0.8,3.96,failed
+S01,bad bad,0.0,-0.7906,2,prob,10,40,1,29,4.31,failed
+S01,bad,0.0,-0.5423,1,probability,10,50,1,2,3.48,failed
+S01,i am struggling and i am bad at this,0.0,-0.743,2,probability,10,50,1,11,3.37,failed
+S01,bad bad,0.0,-0.7906,2,probs,10,40,1,8,4.04,failed
+S01,bad bad bad bad,0.0,-0.9325,4,probability,10,40,1,9,4.08,failed
+S01,bad bad bad,0.0,-0.8885,3,probability,10,60,1,18,4.04,failed
+S02,confident and excited,1.0,0.6808,0,probability,1,120,0,18,3.71,passed
+S03,good,1.0,0.4404,0,probability,2,130,0,2,3.84,passed
+S04,worst performance and tired,0.0,-0.7906,2,statistics,10,60,1,22,3.95,failed
+S04,i am struggling bad at it,0.0,-0.743,2,probability,8,50,1,2,4.02,failed
+S04,i am bad in this,0.0,-0.5423,1,probability,9,80,1,3,4.08,failed
+S04,i am bad but improving,0.6,0.3506,1,statistics,6,100,1,3,3.97,failed
+S04,i am okay,0.8,0.2263,0,probability,4,120,0,4,3.91,passed
+S03,good and excited,1.0,0.6486,0,probability,1,160,0,3,3.81,passed
+S03,i am happy with the performance and topic,1.0,0.5719,0,probability,1,170,0,4,3.87,passed
+S03,happy,1.0,0.5719,0,statistics,1,160,0,1,3.88,passed
+S03,good and improved,1.0,0.7184,0,probability,1,160,0,18,3.79,passed
+S01,bad bad bad,0.0,-0.8885,3,probability,10,30,1,1,4.13,failed
+S01,bad time,0.0,-0.5423,1,probability,10,60,1,0,4.12,failed
+S01,bad time,0.0,-0.5423,1,probability,10,60,1,0,4.12,failed
+S01,i am bad at this,0.0,-0.5423,1,statistics,8,60,1,24,3.95,failed
+S01,bad performance and struggling,0.0,-0.743,2,statistics,10,80,1,1,4.13,failed
+S01,bad,0.0,-0.5423,1,probability,10,90,1,2,4.11,failed
+S01,bad,0.0,-0.5423,1,probability,10,90,1,2,4.11,failed
+S04,i am struggling,0.0,-0.4215,1,probability,10,100,1,9,4.07,failed
+S01,i am struggling,0.4,-0.4215,1,probability,8,90,1,2,4.06,failed
+S01,i am bad in this topic,0.6,-0.5423,1,probability,9,45,1,9,4.05,failed
+S01,i am probability,0.4,0.0,0,probability,8,90,0,9,4.0,failed
+S01,i am struggling,0.4,-0.4215,1,probability,10,70,1,1,4.11,failed
+S06,i am struggling,0.4,-0.4215,1,probability,8,90,1,5,3.97,passed
+S06,good,0.8,0.4404,0,probability,4,120,0,2,3.88,passed
+S03,bad,0.2,-0.5423,1,probability,10,40,1,9,4.05,failed
+S07,i am fine,0.8,0.2023,0,probability,2,140,0,9,3.81,passed
+S01,i am struggling,0.2,-0.4215,1,probability,9,80,1,9,4.04,failed
+S01,i am struggling in this topic,0.4,-0.4215,1,probability,9,90,1,18,4.0,failed
+S01,i am struggling,0.4,-0.4215,1,probability,9,100,1,18,4.0,failed
+S010,i am struggling with the concepts,0.2,-0.4215,1,calculus,10,50,1,10,3.65,failed
+S011,i am excited and confident,1.0,0.6808,0,statistics,1,160,0,10,3.53,passed
+S008,i am exhausted and stressed,0.0,-0.5994,2,probability,10,60,1,8,3.86,failed
+S015,i am struggling and worst,0.0,-0.7845,2,probability,10,45,1,2,3.86,failed
+S0012,i am confident,1.0,0.4939,0,statistics,1,120,0,1,3.53,passed
+S015,i am bad in this,0.2,-0.5423,1,java,10,30,1,2,3.86,failed
+S015,i am exhausted with maths,0.2,-0.3612,1,probability,10,45,1,1,3.91,failed
+S015,i am struggling with maths,0.2,-0.4215,1,probability,9,50,1,1,3.9,failed
+S008,i am weak in this,0.0,-0.4404,1,statistics,10,45,1,1,3.87,failed
+S0012,i am confident,0.8,0.4939,0,probability,2,120,0,1,3.55,passed
+S0012,i am improving positively,1.0,0.7351,0,probability,1,140,0,8,3.5,passed
+S0013,i am worst at this,0.0,-0.6249,1,probability,10,20,1,1,3.86,failed
+S0015,i am bad at this,0.2,-0.5423,1,probability,10,40,1,17,3.85,failed
+S000001,I am struggling,0.0,-0.4215,1,algebra,10,40,1,5,4.16,failed
+S000002,i am struggling,0.0,-0.4215,1,probability,10,30,1,6,4.15,failed
+S0000004,i am confident and positive,1.0,0.7783,0,statistics,1,90,0,7,3.83,passed
+S0000004,i am confident and positive,1.0,0.7783,0,probability,1,160,0,1,3.86,passed
+S1111,I am bad in this,0.0,-0.5423,1,calculus,10,40,1,7,3.97,failed
+S33,i am bad in this,0.0,-0.5423,1,probability,10,30,1,1,3.93,failed
+S33,i am bad in this,0.0,-0.5423,1,probability,10,30,1,30,4.12,failed
+S22,i am happy and confident,0.8,0.7845,0,statistics,2,100,0,1,3.27,passed
+S22,i am positive,0.8,0.5574,0,artificial intelligence,2,100,0,16,3.37,passed
+S22,i failed last time,0.2,-0.5106,1,probability,8,30,1,3,3.88,failed
+S33,i am improved,0.6,0.4767,0,probability,5,80,0,2,3.3,passed
+S33,i am stressed,0.0,-0.34,1,statistics,10,30,1,3,3.9,failed
+S000,bad,0.4,-0.5423,1,probability,8,80,1,7,4.56,failed
+S0001,good,0.8,0.4404,0,probability,2,120,0,16,3.79,passed
+S001,i am struggling,0.2,-0.4215,1,probability,9,60,1,2,4.32,failed
+S001,i am confident,1.0,0.4939,0,probability,1,160,0,7,3.68,passed
+S000,i am struggling with this topic,0.2,-0.4215,1,probability,9,40,1,6,4.35,failed
+S001,bad,0.2,-0.5423,1,xyz,10,40,1,15,4.41,failed
+S01,i am struggling,0.2,-0.4215,1,math,8,40,1,15,4.37,failed
+S01,bad,0.2,-0.5423,1,klsnjbch,10,40,1,15,4.41,failed
+S222,i am struggling with this topic,0.2,-0.4215,1,statistics,9,40,1,9,4.36,failed
+S333,i am confident and positive,0.8,0.7783,0,probability,2,120,0,9,3.69,passed
+S222,i am confident and positive,0.8,0.7783,0,probability,2,120,0,9,3.69,passed
+S333,i am confident and positive,0.8,0.7783,0,probability,2,60,0,9,3.73,passed
+S1000,i am confident,1.0,0.4939,0,probability,1,60,0,13,3.77,passed

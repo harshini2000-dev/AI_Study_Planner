@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predicted Study Hours</title>
+    <style>
+        body {
+    background-image: url("{{ url_for('paml.static', filename='images/edu_studyplan.jpg') }}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    </style>
+    <link rel="stylesheet" href="{{ url_for('paml.static', filename='css/style_4.css') }}">
+</head>
+<body>
+    <div class="student_info">
+
+    <h2> Prediction Result</h2>
+    <p><strong>Student ID:</strong> {{ student_id }}</p>
+
+    {% for key, value in display_data.items() %}
+        <p><strong>{{ key }} :</strong> {{ value }}</p>
+    {% endfor %}
+    <br/>
+    <p><strong>Predicted Study Hours per Day:</strong> <span style="color:blue; font-size:20px;">{{ prediction | round(2) }} hours</span></p>
+
+    <br>
+    <a href="/">&#8656; Back to Form</a>
+    <br>
+
+<form action="{{ url_for('paml.create_plan') }}" method="POST">
+  <input type="hidden" name="student_id" value="{{ student_id }}">
+  <input type="hidden" name="prediction" value="{{ prediction }}">
+
+  <!-- Additional needed data -->
+  <input type="hidden" name="topic" value="{{ display_data['Topic'] }}">
+  <input type="hidden" name="days_left" value="{{ display_data['Days left for exam'] }}">
+  
+  <br>
+  <br>
+  <button type="submit" class="btn btn-success" style="background-color:darkorchid;">Create Study Plan</button>
+</form>
+
+</div>
+</body>
+</html>

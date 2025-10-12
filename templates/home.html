@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Test</title>
+    <style>
+         body {
+            background-image: url("{{ url_for('static', filename='images/edu_background.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_2.css') }}">
+</head>
+<body>
+
+<div class="student_info">
+    <center>
+
+        <h1>Home Page</h1>
+        <h2>Student Dashboard</h2>
+
+        <p><a href="/lstm/lstm_index">Academic Result Predictor (LSTM model)</a></p>
+
+        <p><a href="/paml/paml_index">Daily Study Hours Recommender (PAML model)</a></p>
+
+    </center>
+
+</div>
+</body>
+</html>

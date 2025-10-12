@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-image: url("{{ url_for('paml.static', filename='images/edu_studyplan.jpg') }}");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+    </style>
+    <link rel="stylesheet" href="{{ url_for('paml.static', filename='css/style_4.css') }}">
+</head>
+    <body>
+    <div class="student_info">
+        <h2>Study Plan </h2>
+    <pre>{{ plan_text }}</pre>
+    <!-- {% if message != "error" %} -->
+    <input type="hidden" id="msgid" value="{{message}}">
+    <!-- {% endif %} -->
+    <a href="/">&#8656; Back to Form</a>
+    </div>
+    </body>
+</html>
+<script>
+   message = document.getElementById("msgid").value;
+   if(message != "error")
+    {alert(message);}
+
+</script>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Info Form</title>
+<style>
+  body {
+    background-image: url("{{ url_for('lstm.static', filename='images/eduimage.jpg') }}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>
+<link rel="stylesheet" href="{{ url_for('lstm.static', filename='css/style_1.css') }}">
+</head>
+
+<body>
+    <h2>Student Information Form</h2>
+
+    <form class="" method="POST" id="myForm">
+
+
+        <label>Gender:</label>
+        <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        </div>
+
+        <label>Age:</label>
+        <input type="number" name="age" min="15" max="35" required>
+
+        <label>Study Hours per Week:</label>
+        <input type="number" name="hours" min="0" max="100" required>
+
+        <label>Attendance Rate (0–100):</label>
+        <input type="number" name="attendance" min="0" max="100" required>
+
+        <label>Internet Access:</label>
+
+        <div class="radio-group">
+            <input type="radio" id="yes_net" name="net" value="Yes" required>
+            <label for="yes_net">Yes</label>
+
+            <input type="radio" id="no_net" name="net" value="No" required>
+            <label for="no_net">No</label>
+        </div>
+
+        <label>Previous Grade:</label>
+        <select name="grade" required >
+            <option value="" disabled selected>--Select Grade--</option>
+            <option value="A" {% if request.form.get('Grade') == 'A' %}selected{% endif %}>A</option>
+            <option value="B" {% if request.form.get('Grade') == 'B' %}selected{% endif %}>B</option>
+            <option value="C" {% if request.form.get('Grade') == 'C' %}selected{% endif %}>C</option>
+            <option value="D" {% if request.form.get('Grade') == 'D' %}selected{% endif %}>D</option>
+            <option value="F" {% if request.form.get('Grade') == 'F' %}selected{% endif %}>F</option>
+        </select>
+
+        <label>Extra Curricular:</label>
+        <div class="radio-group">
+            <input type="radio" id="yes_extra" name="extra" value="Yes" required>
+            <label for="yes_extra">Yes</label>
+
+            <input type="radio" id="no_extra" name="extra" value="No">
+            <label for="no_extra">No</label>
+        </div>
+
+        <button type="submit"> Submit </button>
+        <button type="reset" value="reset" onclick="reset_form()"> Reset Form </button>
+
+    </form>
+
+    </div>
+
+    <script>
+
+        function reset_form(){
+            const myForm = document.getElementById('myForm');
+
+            myForm.elements.gender.value = "";
+            myForm.elements.age.value = "";
+            myForm.elements.hours.value = "";
+            myForm.elements.attendance.value = "";
+            myForm.elements.grade.value="";
+            myForm.elements.extra.value="";
+        }
+
+    </script>
+</body>
+</html>

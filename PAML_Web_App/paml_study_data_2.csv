@@ -1,0 +1,211 @@
+student_id,user_input,confidence_score,sentiment_score,struggle_keywords,topic,topic_difficulty,time_spent_minutes,is_struggling,days_left,study_hours,last_exam_result
+X001,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,4.5,failed
+X001,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,4.6,failed
+X001,Tried more this time,1,-0.1,0,algebra,7,110,1,15,4.7,failed
+X001,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,4.8,failed
+X001,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,4.9,failed
+X001,Tried more this time,1,-0.1,0,algebra,7,110,1,15,5,failed
+X001,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,5.1,failed
+X001,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,5.2,failed
+X002,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,4.5,failed
+X002,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,4.6,failed
+X002,Tried more this time,1,-0.1,0,algebra,7,110,1,15,4.7,failed
+X002,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,4.8,failed
+X002,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,4.9,failed
+X002,Tried more this time,1,-0.1,0,algebra,7,110,1,15,5,failed
+X002,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,5.1,failed
+X002,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,5.2,failed
+X003,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,4.5,failed
+X003,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,4.6,failed
+X003,Tried more this time,1,-0.1,0,algebra,7,110,1,15,4.7,failed
+X003,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,4.8,failed
+X003,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,4.9,failed
+X003,Tried more this time,1,-0.1,0,algebra,7,110,1,15,5,failed
+X003,Still confident but not passing,0.8,-0.1,0,algebra,7,90,1,15,5.1,failed
+X003,I studied hard again,0.9,-0.2,0,algebra,7,120,1,15,5.2,failed
+X004,Improving and hopeful,0.4,-0.3,1,geometry,6,40,1,15,5,failed
+X004,Got better,0.7,0.1,0,geometry,5,60,0,15,4.5,failed
+X004,Passed recently,0.9,0.4,0,geometry,4,70,0,15,4,passed
+X004,Improving and hopeful,0.4,-0.3,1,geometry,6,40,1,15,3.5,failed
+X004,Got better,0.7,0.1,0,geometry,5,60,0,15,3.3,failed
+X004,Passed recently,0.9,0.4,0,geometry,4,70,0,15,2.7,passed
+X004,Improving and hopeful,0.4,-0.3,1,geometry,6,40,1,15,3,failed
+X004,Got better,0.7,0.1,0,geometry,5,60,0,15,3.2,failed
+X0001,I am not confident,0.2,-0.3875,0,algebra,9,80,1,4,4.5,failed
+X0001,I am strugglin,0,0,0,algebra,10,80,1,9,4.6,failed
+X0001,I am bad,0,-0.5423,1,algebra,10,80,1,10,4.65,failed
+X0001,I am bad in this and struggling to get,0.2,-0.743,2,algebra,9,70,1,10,4.75,failed
+X0001,i am bad in this,0,-0.5423,1,algebra,10,90,1,12,4.75,failed
+X0001,i am bad,0,-0.5423,1,algebra,10,50,1,4,4.75,failed
+X0001,i am struggling and bad,0.2,-0.743,2,algebra,10,75,1,4,4.5,failed
+X0001,I am tired and exhausted with this topic,0,-0.6597,2,algebra,10,90,1,4,4.4,failed
+X0001,i am bad in this and worst performance,0,-0.8225,2,algebra,10,80,1,4,4.5,failed
+X0001,I am bad at this. worst,0,-0.8225,2,algebra,10,80,1,4,4.5,failed
+X0001,I am bad in this but learnt well,0.4,0.1027,1,algebra,8,90,1,5,4,failed
+X0001,I am okay but worst performance,0.2,-0.7351,1,algebra,10,80,1,4,4.5,failed
+X0001,I performed very poor and exhausted,0,-0.7316,2,algebra,10,50,1,2,4.7,failed
+X0001,i am bad but i improved,0.4,0.4404,1,algebra,9,120,1,4,4.2,failed
+X0001,I am okay now better than before,0.6,0.5859,0,algebra,7,160,0,4,3.32,passed
+X0001,I am feeling good and happy,0.8,0.7964,0,algebra,4,180,0,4,2.95,passed
+X0001,I am good,0.8,0.4404,0,algebra,4,160,0,4,2.69,passed
+X0002,I am excited to learn,1,0.34,0,stats,1,90,0,4,3.5,passed
+X0002,I am confident,1,0.4939,0,stats,2,85,0,4,3.5,passed
+X0002,I am good,0.8,0.4404,0,stats,2,80,0,4,3.65,passed
+X0002,I am okay and good,1,0.5859,0,stats,1,90,0,4,3.64,passed
+X0002,I am confident and happy,1,0.7845,0,algebra,1,90,0,5,3.2,passed
+X0002,I am fine,1,0.2023,0,prob,1,120,0,2,3.37,passed
+X0002,I am confident,0.8,0.4939,0,algebra,2,90,0,10,3.77,passed
+X0002,I am excited,1,0.34,0,algebra,1,120,0,2,3.09,passed
+X0003,I am bad in this subject,0,-0.5423,1,probs,10,20,1,4,4,failed
+X0003,I am worst,0,-0.6249,1,probs,10,30,1,4,4,failed
+X0003,I am worst and tired,0,-0.7906,2,probs,10,40,1,6,4.5,failed
+X0003,I am bad,0.2,-0.5423,1,probs,9,70,1,4,4,failed
+X0003,I am bad but improving,0.4,0.3506,1,probs,7,90,1,4,4,failed
+X0003,I am better but struggling still,0.4,-0.4118,1,probs,8,120,1,4,4,failed
+X0003,i am okay and better,0.8,0.5859,0,probs,4,160,0,4,3.21,passed
+X0004,I am confident and excited to learn,1,0.6808,0,probs,1,120,0,4,3.15,passed
+X0004,I am a topper of the class and got many awards,1,0.4588,0,probs,1,140,0,4,3.53,passed
+X0004,I am positive,1,0.5574,0,algebra,1,140,0,4,3.44,passed
+X0004,I am happy and positive,1,0.8074,0,algebra,1,120,0,3,3.58,passed
+X0004,I am ill,0.4,-0.4215,1,prob,7,40,1,4,3.8,failed
+X0003,I am weak in this subject,0.2,-0.4404,1,probs,9,60,1,6,4.5,failed
+X0004,I am weak,0.4,-0.4404,1,prob,6,50,1,6,4.5,failed
+X0004,im bad,0.4,-0.5423,1,algebra,9,90,1,4,4.2,failed
+X0006,I am okay now,0.6,0.2263,0,algebra,5,170,0,4,3.52,passed
+X0004,I am okay now,0.6,0.2263,0,algebra,5,120,0,4,3.5,passed
+X0006,I am confident,0.8,0.4939,0,algebra,2,100,0,4,3.56,passed
+X0006,I am okay,0.6,0.2263,0,algebra,4,90,0,4,3.2,passed
+X0006,I am excited,1,0.34,0,probs,2,90,0,6,3.4,passed
+X0006,I am having good time,1,0.4404,0,probability,1,80,0,5,3.16,passed
+X0006,I am fine and excited,1,0.4939,0,algebra,1,140,0,5,3.57,passed
+X0007,i am stress,0,-0.4215,1,probability,10,40,1,2,4.04,failed
+X0007,I am tired and scared,0,-0.7003,2,prob,10,50,1,2,4.2,failed
+X0007,I am scared and exhausted,0,-0.6597,2,probability,10,60,1,7,4.2,failed
+X1001,Im failing again. I feel hel,0.2,-0.72,2,algebra,9,60,1,4,4.6,failed
+X1001,Nothing I do helps. I'm frustrated.,0.1,-0.81,2,algebra,9,75,1,4,4.7,failed
+X1001,I studied but my mind goes blank.,0.3,-0.65,2,algebra,9,80,1,4,4.8,failed
+X1001,I feel defeated again.,0.2,-0.78,2,algebra,9,70,1,4,5,failed
+X1002,Feeling a bit better than last week.,0.4,-0.1,1,geometry,6,90,1,10,4.5,failed
+X1002,Practiced more still struggling.,0.5,0,1,geometry,6,100,1,10,4.6,failed
+X1002,Started to get some answers right.,0.6,0.2,1,geometry,6,110,1,10,4.7,failed
+X1002,I think I m improving.,0.7,0.35,1,geometry,6,120,1,10,4.2,passed
+X1003,Studied again still no progress.,0.8,-0.3,0,algebra,8,100,1,6,4.5,failed
+X1003,I worked harder this time.,0.9,-0.2,0,algebra,8,110,1,6,4.6,failed
+X1003,Repeated the same exercises.,0.9,-0.25,0,algebra,8,105,1,6,4.7,failed
+X1003,Still failing I dont know,1,-0.15,0,algebra,8,115,1,6,4.9,failed
+X1004,Got some things right finally!,0.7,0.3,0,algebra,6,130,0,6,3.5,passed
+X1004,I revised well and feel good.,0.8,0.5,0,algebra,6,140,0,6,3.2,passed
+X1004,Happy with my progress.,0.9,0.6,0,algebra,6,150,0,6,2.9,passed
+X1004,This topic is clearer now.,1,0.7,0,algebra,6,160,0,6,2.7,passed
+X1005,Everything makes sense now.,1,0.9,0,stats,2,100,0,4,2.5,passed
+X1005,I enjoy practicing this.,1,0.8,0,stats,2,90,0,4,2.6,passed
+X1005,I feel completely prepared.,1,0.85,0,stats,2,100,0,4,2.4,passed
+X1005,It s my favorite topic.,1,0.95,0,stats,2,95,0,4,2.3,passed
+X1006,I m not sure I understand this.,0.3,-0.5,1,probability,7,70,1,3,4.5,failed
+X1006,Trying but its confusing.,0.2,-0.6,1,probability,7,60,1,3,4.1,failed
+X1006,I struggle with the basics.,0.1,-0.7,1,probability,7,50,1,3,4.3,failed
+X1007,I always score well.,1,0.85,0,geometry,2,110,0,4,3,passed
+X1007,Im confident like always.,1,0.75,0,geometry,2,100,0,4,2.95,passed
+X1007,This is going great.,1,0.8,0,geometry,2,120,0,4,2.8,passed
+X1007,I love solving these problems.,1,0.9,0,geometry,2,115,0,4,2.7,passed
+X1008,Was improving but confused again.,0.6,-0.2,1,algebra,8,120,1,5,4.5,failed
+X1008,Not sure what went wrong.,0.5,-0.4,1,algebra,8,130,1,5,4.4,failed
+X1008,I thought I was doing fine.,0.7,-0.3,1,algebra,8,125,1,5,4.5,failed
+X1008,Losing confidence after trying hard.,0.6,-0.5,1,algebra,8,135,1,5,4.4,failed
+X111,I am scared and exhausted,0.2,-0.6597,2,algebra,9,30,1,10,4.5,failed
+X111,I am having tough time,0.2,-0.128,0,algebra,9,60,1,5,4.3,failed
+X111,I am having bad time,0.2,-0.5423,1,algebra,8,70,1,1,4,failed
+X112,I am feeling better,0.6,0.5267,0,probability,3,60,0,3,3.52,passed
+X112,I am good,1,0.4404,0,algebra,1,90,0,3,3.52,passed
+X112,i am good,1,0.4404,0,algebra,1,80,0,0,3.58,passed
+X112,i am good at this,1,0.4404,0,algebra,1,80,0,9,3.44,passed
+X111,i am better,1,0.4404,0,probs,1,90,0,21,3.86,passed
+X112,good,1,0.4404,0,probs,1,160,0,0,3.58,passed
+X113,I am bad at this worst,0,-0.8225,2,stats,10,20,1,1,4.8,failed
+X113,I am bad and tired,0.2,-0.7506,2,probs,9,50,1,24,4.5,failed
+X113,I am bad but improving,0.6,0.3506,1,algebra,7,80,1,8,4,passed
+X112,I am good with this topic,1,0.4404,0,Probability,2,80,0,9,3.5,passed
+PML01,Facing difficulty understanding basics,0.3,-0.6,1,calculus,8,45,1,25,5.3,failed
+PML02,Feeling overwhelmed and slow,0.4,-0.5,1,geometry,7,60,1,22,5.1,failed
+PML03,Can't solve practice questions,0.35,-0.4,1,algebra,9,55,1,28,5.4,failed
+PML04,Confused with formulas,0.2,-0.7,1,trigonometry,9,50,1,30,5.5,failed
+PML05,Still not understanding the concept,0.25,-0.5,1,statistics,8,65,1,27,5.2,failed
+PFL01,Panicking before exam,0.3,-0.7,1,calculus,9,90,1,3,6,failed
+PFL02,Really anxious and can't focus,0.25,-0.8,1,algebra,10,85,1,2,5.9,failed
+PFL03,Tried but still failing mock tests,0.4,-0.5,1,geometry,8,100,1,4,5.7,failed
+PFL04,Completely stuck and hopeless,0.2,-0.9,1,trigonometry,9,75,1,1,6,failed
+PFL05,Cramming everything last minute,0.35,-0.6,1,statistics,8,95,1,2,5.8,failed
+GML01,Doing well and revising,0.75,0.6,0,calculus,4,120,0,26,2.8,passed
+GML02,Understood most parts clearly,0.85,0.7,0,geometry,3,130,0,29,2.5,passed
+GML03,Comfortable with the material,0.7,0.5,0,algebra,4,110,0,27,2.9,passed
+GML04,Practicing regularly,0.9,0.8,0,trigonometry,3,150,0,30,2.6,passed
+GML05,Feeling well prepared,0.8,0.6,0,statistics,4,140,0,25,2.7,passed
+GFL01,Staying confident before test,0.8,0.6,0,calculus,4,145,0,3,3.4,passed
+GFL02,Quick revision going on,0.7,0.5,0,algebra,5,130,0,2,3.5,passed
+GFL03,Calm and ready,0.9,0.9,0,geometry,3,140,0,4,3.2,passed
+GFL04,Minor doubts only,0.85,0.75,0,trigonometry,3,135,0,1,3.3,passed
+GFL05,Just brushing up concepts,0.8,0.65,0,statistics,4,120,0,2,3.5,passed
+ME001,Just started studying,0.3,-0.6,1,calculus,8,35,1,30,5.8,failed
+ME001,Still confused on concepts,0.35,-0.5,1,calculus,8,50,1,25,5.5,failed
+ME001,Little improvement,0.45,-0.3,1,calculus,8,60,1,20,5.2,failed
+ME001,Better understanding now,0.55,-0.1,0,calculus,8,80,0,15,4.5,failed
+ME001,Feeling confident,0.7,0.2,0,calculus,8,100,0,10,3.8,passed
+ME002,Very anxious about exam,0.2,-0.8,1,algebra,7,30,1,28,6,failed
+ME002,Trying hard to grasp basics,0.3,-0.6,1,algebra,7,45,1,24,5.7,failed
+ME002,Some clarity now,0.4,-0.4,1,algebra,7,60,1,18,5.4,failed
+ME002,Feeling better,0.6,-0.1,0,algebra,7,85,0,12,4.3,passed
+ME002,Confident and ready,0.8,0.3,0,algebra,7,110,0,5,3.2,passed
+ME003,No motivation to study,0.25,-0.7,1,physics,6,25,1,26,6,failed
+ME003,Started watching videos,0.4,-0.5,1,physics,6,50,1,22,5.6,failed
+ME003,Took some notes,0.5,-0.2,1,physics,6,65,1,17,5.1,failed
+ME003,Doing better with practice,0.65,0.1,0,physics,6,90,0,10,4,passed
+ME003,Finished mock test,0.8,0.4,0,physics,6,110,0,4,3,passed
+ME004,Completely lost,0.1,-0.9,1,chemistry,9,20,1,30,6,failed
+ME004,Still failing quizzes,0.2,-0.8,1,chemistry,9,35,1,25,5.8,failed
+ME004,Watching tutorials,0.35,-0.5,1,chemistry,9,55,1,20,5.4,failed
+ME004,Attempted past paper,0.5,-0.2,0,chemistry,9,75,0,10,4.2,passed
+ME004,Reviewed errors and improved,0.7,0.3,0,chemistry,9,95,0,5,3.5,passed
+ME005,Confident from the start,0.9,0.8,0,english,4,120,0,30,2.5,passed
+ME005,Maintaining pace,0.92,0.85,0,english,4,130,0,25,2.3,passed
+ME005,Revision going smooth,0.93,0.9,0,english,4,140,0,20,2.1,passed
+ME005,Final review sessions,0.95,0.9,0,english,4,145,0,10,2,passed
+ME006,Poor performance last exam,0.3,-0.7,1,math,7,40,1,27,5.6,failed
+ME006,Practicing slowly,0.4,-0.5,1,math,7,55,1,21,5.3,failed
+ME006,Some improvement in results,0.55,-0.1,1,math,7,70,1,15,4.6,failed
+ME006,Feeling slightly better,0.65,0.1,0,math,7,85,0,10,3.9,passed
+ME006,Ready for exam,0.8,0.3,0,math,7,105,0,4,3,passed
+SX33,i am bad in this,0.0,-0.5423,1,probability,10,30,1,1,3.93,failed
+SX33,i am bad in this,0.0,-0.5423,1,probability,10,30,1,30,4.12,failed
+SX22,i am happy and confident,0.8,0.7845,0,statistics,2,100,0,1,3.27,passed
+SX22,i am positive,0.8,0.5574,0,artificial intelligence,2,100,0,16,3.37,passed
+SX22,i failed last time,0.2,-0.5106,1,probability,8,30,1,3,3.88,failed
+SX33,i am improved,0.6,0.4767,0,probability,5,80,0,2,3.3,passed
+SX33,i am stressed,0.0,-0.34,1,statistics,10,30,1,3,3.9,failed
+NS001,Just started revision,0.3,-0.5,1,algebra,7,30,1,30,5.5,failed
+NS001,Still not confident,0.4,-0.4,1,algebra,7,60,1,22,5.2,failed
+NS001,Improving slowly,0.55,-0.2,1,algebra,7,90,1,14,4.1,failed
+NS001,Mock test went okay,0.65,0.1,0,algebra,7,110,0,7,3.6,passed
+NS001,Feeling exam-ready,0.8,0.4,0,algebra,7,130,0,2,3.2,passed
+NS002,Not understanding formulas,0.2,-0.7,1,calculus,9,25,1,28,6,failed
+NS002,Watched tutorials,0.4,-0.3,1,calculus,9,55,1,22,5.4,failed
+NS002,Feeling better,0.6,0.2,0,calculus,9,85,0,16,4.3,passed
+NS002,Mock test was good,0.75,0.5,0,calculus,9,105,0,8,3.6,passed
+NS002,Final prep,0.85,0.6,0,calculus,9,125,0,3,3.1,passed
+NS003,Too anxious to focus,0.15,-0.8,1,statistics,8,20,1,27,6,failed
+NS003,Tried a study plan,0.3,-0.5,1,statistics,8,45,1,21,5.5,failed
+NS003,Understanding better,0.5,-0.2,0,statistics,8,70,1,14,4.5,passed
+NS003,Consistent now,0.7,0.4,0,statistics,8,100,0,7,3.7,passed
+NS003,Final brush up,0.85,0.7,0,statistics,8,115,0,2,3.2,passed
+NS004,Don't know where to begin,0.1,-0.9,1,physics,10,15,1,30,6,failed
+NS004,Started solving basics,0.35,-0.5,1,physics,10,50,1,24,5.2,failed
+NS004,Feeling less stuck now,0.55,-0.1,0,physics,10,75,0,18,4.1,passed
+NS004,Finished all practice sets,0.8,0.4,0,physics,10,105,0,10,3.5,passed
+NS004,Relaxed and revising,0.9,0.6,0,physics,10,120,0,3,2.9,passed
+SX000,i am struggling with this topic,0.2,-0.4215,1,probability,9,40,1,6,4.35,failed
+S001,bad,0.2,-0.5423,1,xyz,10,40,1,15,4.41,failed
+S01,i am struggling,0.2,-0.4215,1,math,8,40,1,15,4.37,failed
+S01,bad,0.2,-0.5423,1,klsnjbch,10,40,1,15,4.41,failed
+S222,i am struggling with this topic,0.2,-0.4215,1,statistics,9,40,1,9,4.36,failed
+S333,i am confident and positive,0.8,0.7783,0,probability,2,120,0,9,3.69,passed
+S333,i am confident and positive,0.8,0.7783,0,probability,2,60,0,9,3.73,passed
+S1000,i am confident,1.0,0.4939,0,probability,1,60,0,13,3.77,passed
