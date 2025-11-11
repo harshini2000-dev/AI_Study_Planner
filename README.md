@@ -10,10 +10,10 @@ Based on study habits and academic details,
 - Generates study plans (subtopics of the main-topic are webscraped)
 
 ### Implemented - 
-Personalized Adaptive Meta Learning (PAML) model
-LSTM
-Beautiful Soup
-NLTK
+- Personalized Adaptive Meta Learning (PAML) model
+- LSTM
+- Beautiful Soup
+- NLTK
 
 ### Key capabilities -
 - Fast adaptation
