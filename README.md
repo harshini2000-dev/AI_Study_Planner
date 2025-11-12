@@ -1,5 +1,5 @@
 # AI_Study_Planner
-AI study planner is tool made for students as every student's way of studying is unique and different.
+AI study planner is tool (web) made for students as every student's way of studying is unique and different.
 
 ### How this tool helps ?
 Based on study habits and academic details,
@@ -19,7 +19,6 @@ Based on study habits and academic details,
 ### Key capabilities -
 - Fast adaptation
 - Handles cold start scenerios
-- Meta learning - learn to learn
+- learns to learn (Meta learning)
 - Continual learning
 - Sentiment analysis
-- LSTM
