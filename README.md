@@ -9,11 +9,12 @@ Based on study habits and academic details,
 - Recommends personalised daily study hours
 - Generates study plans (subtopics of the main-topic are webscraped)
 
-### Implemented - 
+### Key Implementions - 
 - Personalized Adaptive Meta Learning (PAML) model
 - LSTM
 - Beautiful Soup
 - NLTK
+- Flask web app
 
 ### Key capabilities -
 - Fast adaptation
